@@ -863,3 +863,53 @@ header.second {
     line-height: 22px;
     color: #454545;
 }
+
+
+/*carForm page*/
+
+.carForm #mainscreen h1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+#car-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#car-form .select2-container--default .select2-selection--single {
+    border-radius: 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#car-form .select2 {
+    width: 300px !important;
+    margin-bottom: 20px;
+}
+
+#car-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #fff;
+}
+
+.carForm #mainscreen {
+    height: 600px;
+}
+
+.carForm #mainscreen .btn2 {
+    width: fit-content;
+}
+
+/*tune page*/
+
+.tune #aboutBlocks .about-blocks {
+    gap: 140px;
+    text-align: center;
+}
+
+.tune #mainscreen h1 {
+    color: black;
+    text-align: left;
+}
